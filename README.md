@@ -46,6 +46,8 @@ The methods compared in the paper are:
   3. Supervised PCA
   4. Metric Learning
 
+
+
 Many of the above mentioned methods are implemented in various Python packages:
 ### sklearn.manifold
 LocallyLinearEmbedding, Isomap, MDS,  SpectralEmbedding(LaplacianEigenmap), TSNE
@@ -54,12 +56,13 @@ PCA, KernelPCA
 ### sklearn.discriminant_analysis
 LDA
 
+
 WEKA was also used. It is an open source software with implementations of feature selection methods like INTERACT.
 
 Few of the methods were adapted from publicly uploaded code on GitHub or other sources.
 
 Rest are implemented by authors of the paper.
 
-Plotting code outputs images as the example below (Autoencoder feature extraction method):
+Plotting code outputs images as shown below (Autoencoder feature extraction method):
 
 ![Embedded Space Plot](/AE_plot.png)
