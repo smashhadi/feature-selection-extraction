@@ -10,7 +10,7 @@ Aim of the paper is to compare commonly used feature selection and feature extra
 The methods compared in the paper are:
 
 ## Feature Selection
-1. Filter Methods
+### Filter Methods
   1. Correlation Criteria
   2. Mutual Information
   3. Chi Square Statistics
@@ -20,7 +20,7 @@ The methods compared in the paper are:
   7. INTERACT
   8. Minimal Redundancy Maximal Relevance
   
-2. Wrapper Methods
+### Wrapper Methods
   1. Sequential Forward Selection 
   2. Sequential Backward Selection
   3. Particle Swarm Optimization
@@ -28,7 +28,7 @@ The methods compared in the paper are:
   5. Geometric PSO
   
 ## Feature Extraction
-1. Unsupervised Methods
+### Unsupervised Methods
   1. PCA
   2. Dual PCA
   3. Kernel PCA
@@ -40,7 +40,7 @@ The methods compared in the paper are:
   9. Autoencoders and neural networks
   10. tSNE
   
-2. Supervised Methods
+### Supervised Methods
   1. Fisher LDA
   2. Kernel FLDA
   3. Supervised PCA
@@ -63,4 +63,3 @@ Rest are implemented by authors of the paper.
 Plotting code outputs images as the example below (Autoencoder feature extraction method):
 
 ![Embedded Space Plot](/AE_plot.png)
-Format: ![Alt Text](url)
