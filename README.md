@@ -63,6 +63,6 @@ Few of the methods were adapted from publicly uploaded code on GitHub or other s
 
 Rest are implemented by authors of the paper.
 
-Plotting code outputs images as shown below (Autoencoder feature extraction method):
+Plotting code outputs 2D plots showing MNIST data points in the embedded space after applying feature selection/extraction as shown below (Autoencoder feature extraction method). We might observe clusters of the same digits, which proves the effectiveness of the feature selection/extraction method visually.
 
 ![Embedded Space Plot](/AE_plot.png)
