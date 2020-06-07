@@ -1,8 +1,9 @@
 """
 Code implemented in Google Colab.
 Implementation based on autoencoder for MNIST by Andrej Karpathy.
-AE code for accuracy - features reduced to 5
+Code for accuracy test on encoded (extracted) features.
 """
+
 import numpy as np
 import tensorflow as tf
 from google.colab import files
