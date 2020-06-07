@@ -1,15 +1,15 @@
 # feature-selection-extraction
 Feature selection and feature extraction code implementation
-#####Paper: 
+##### Paper: 
 Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review 
-#####Link: 
+##### Link: 
 https://arxiv.org/abs/1905.02845
 
 Aim of the paper is to compare commonly used feature selection and feature extraction methods on a single task - digit recogtion.
 
 The methods compared in the paper are:
 
-##Feature Selection
+## Feature Selection
 1. Filter Methods
   1. Correlation Criteria
   2. Mutual Information
@@ -27,7 +27,7 @@ The methods compared in the paper are:
   4. Genetic Algorithms
   5. Geometric PSO
   
-##Feature Extraction
+## Feature Extraction
 1. Unsupervised Methods
   1. PCA
   2. Dual PCA
@@ -47,11 +47,11 @@ The methods compared in the paper are:
   4. Metric Learning
 
 Many of the above mentioned methods are implemented in various Python packages:
-###sklearn.manifold
+### sklearn.manifold
 LocallyLinearEmbedding, Isomap, MDS,  SpectralEmbedding(LaplacianEigenmap), TSNE
-###sklearn.decomposition 
+### sklearn.decomposition 
 PCA, KernelPCA
-###sklearn.discriminant_analysis
+### sklearn.discriminant_analysis
 LDA
 
 WEKA was also used. It is an open source software with implementations of feature selection methods like INTERACT.
@@ -62,5 +62,5 @@ Rest are implemented by authors of the paper.
 
 Plotting code outputs images as the example below (Autoencoder feature extraction method):
 
-![Embedded Space Plot](/images/AE_plot.png)
+![Embedded Space Plot](/AE_plot.png)
 Format: ![Alt Text](url)
